@@ -1,0 +1,64 @@
+:root {
+    --magenta: #bb4499;
+    --gray: #333333; 
+    --blue: #4499bb;
+}
+
+
+html {
+
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6em;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background: white;;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Bookman Old Style', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 0 2em;
+}
+
+main {
+    margin: 0 auto;
+    height: 100vh;
+    background-color: var(--blue);
+}
+
+footer {
+
+}
+
+#main-logo {
+    height: 5vh;
+}
+
+@media only screen and (min-width: 680px) {
+    header {
+        padding-left: 20%
+    }
+
+    h1 {
+        font-size: 7vh;
+    }
+
+    #main-logo {
+        height: 7vh;
+    }
+}

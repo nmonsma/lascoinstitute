@@ -1,0 +1,40 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 300 300">
+<g transform="translate(-350,-270)">   
+  <path
+     id="artes-1"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#b49; stroke:none; stroke-width:17" />
+  <path
+     id="artes-2"
+     transform="rotate(51.43, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#b49; stroke:none; stroke-width:17" />
+  <path
+     id="artes-3"
+     transform="rotate(102.86, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#49b; stroke:none; stroke-width:17" />
+  <path
+     id="artes-4"
+     transform="rotate(154.29, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#49b; stroke:none; stroke-width:17" />
+  <path
+     id="artes-5"
+     transform="rotate(205.71, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#49b; stroke:none; stroke-width:17" />
+  <path
+     id="artes-6"
+     transform="rotate(257.14, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#49b; stroke:none; stroke-width:17" />
+  <path
+     id="artes-7"
+     transform="rotate(308.57, 500,425)"
+     d="M500,400 L480,350 Q450,275 500,275 Q550,275 520,350 L500,400 L480,350"
+     style="fill:#b49; stroke:none; stroke-width:17" />
+</g>
+</svg>
