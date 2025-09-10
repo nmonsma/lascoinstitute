@@ -37,6 +37,7 @@
         .container {
             /*  */
             margin: 0 auto;
+            padding-top: 100px;
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -55,10 +56,14 @@
 
         /* Header Styles */
         header {
+            margin: 0 auto;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
             background: white;
+            width: 100vw;
+            z-index: 1000;
             padding: 2rem;
             text-align: center;
-            position: relative;
+            position: fixed;
             overflow: hidden;
         }
 
@@ -179,7 +184,6 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .logo-container {
-                flex-direction: column;
                 gap: 1rem;
             }
             
@@ -203,14 +207,15 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header>
+    <header>
             <div class="logo-container">
                 <img src="lascologo.png" alt="Lasco Institute Logo" style="width:40px; height:40px;">
                 <h1 class="company-name">Lasco Institute</h1>
             </div>
-        </header>
+    </header>
+    <div class="container">
+        <!-- Header Section -->
+
 
         <!-- Main Content -->
         <main>
