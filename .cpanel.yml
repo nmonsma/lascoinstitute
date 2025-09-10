@@ -5,3 +5,4 @@ deployment:
     - /bin/cp -R /home/nickjufg/repositories/lascoinstitute/conference24 $DEPLOYPATH
     - /bin/cp /home/nickjufg/repositories/lascoinstitute/*.html     $DEPLOYPATH
     - /bin/cp /home/nickjufg/repositories/lascoinstitute/*.htm      $DEPLOYPATH
+    - /bin/cp /home/nickjufg/repositories/lascoinstitute/*.*      $DEPLOYPATH
